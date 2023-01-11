@@ -12,6 +12,10 @@ nav ul{
     font-size: large;
     display: flex;
 }
+nav.foot{
+    display: flex;
+
+}
 li a{
     display: block;
     padding: 3px;
@@ -29,5 +33,22 @@ img#logo{
     top: 0;
 }
 main{
-    margin: 20px;
+    margin: auto;
+}
+dl dt{
+    font-size:30px;
+    text-decoration: underline;
+    background-color: burlywood;
+
+
+}
+dl dd p{
+    font-size: 20px;
+    display: block;
+    background-color: slategray;
+}
+iframe{
+    width: 500px;
+    height:500px; 
+    border:3px;
 }
