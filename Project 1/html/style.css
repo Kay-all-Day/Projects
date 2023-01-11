@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: dimgrey;
+    background-color: goldenrod;
+}
+header{
+    
+ }
+header nav ul{
+    list-style-type: none;
+    width: 100px;
+}
+li a{
+    display: block;
+    padding: 3px;
+    margin: 2px;
+    border: 2px solid green;
+    
+}
+li a:hover{
+    background-color: gold;
+    color: whitesmoke;
+}
+img#logo{
+    width: 100pc;
+    height: 450px;
+    top: 0;
+}
+main{
+}
+footer{
+
+}
