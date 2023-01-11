@@ -2,26 +2,26 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: dimgrey;
+    color: #000;
     background-color: goldenrod;
 }
-header{
-    
- }
-header nav ul{
+/* header{ } */
+nav ul{
     list-style-type: none;
-    width: 100px;
+    width: 400px;
+    font-size: large;
+    display: flex;
 }
 li a{
     display: block;
     padding: 3px;
     margin: 2px;
-    border: 2px solid green;
-    
+    width: 100px;
+    border: 2px solid ;
+    background-color: slategrey;    
 }
 li a:hover{
     background-color: gold;
-    color: whitesmoke;
 }
 img#logo{
     width: 100pc;
@@ -29,7 +29,5 @@ img#logo{
     top: 0;
 }
 main{
-}
-footer{
-
+    margin: 20px;
 }
