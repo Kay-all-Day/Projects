@@ -1,15 +1,19 @@
+/* Reset */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+/* Body */
 body{
     background-color: darkslategrey;
 
 }
+/* Header styles */
 header{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 header>nav>ul{
     display: flex;
@@ -24,4 +28,16 @@ li{
 header li a{
     text-decoration: none;
     
+}
+
+/* Showcase styles */
+.showcase{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.image-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
