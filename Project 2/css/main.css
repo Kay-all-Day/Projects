@@ -3,3 +3,25 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: darkslategrey;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header>nav>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 20px;
+}
+li{
+    display: block;
+    background-color: turquoise;
+}
+header li a{
+    text-decoration: none;
+    
+}
