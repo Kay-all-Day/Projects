@@ -60,14 +60,16 @@ header li a{
     overflow: hidden;
 }
 .featured-content{
-    height: 300px;
+    /* height: 300px; */
 }
 .list-of-articles{
     display: flex;
-    height: 100px;
+    flex-direction: column;
+    /* height: 100px; */
 }
 .list-of-articles .featured-content-image-container{
     display: flex;
+    flex-direction: row;
 }
 .list-of-articles .featured-image-container{
     width: 100%;
